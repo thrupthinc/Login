@@ -14,7 +14,7 @@
         var method;
         //Generic function to call WCF  Service
         function CallService() {
-            
+            alert("CallService");
             $.ajax({
                 type: Type, //GET or POST or PUT or DELETE verb
                 url: Url, // Location of the service
