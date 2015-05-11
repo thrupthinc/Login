@@ -41,8 +41,9 @@
         }
             
         function GetEmployee() {
+            alert("test");
             var uesrid = "1";
-            Type = "GET";
+            Type = "POST";
             Url = "http://122.166.232.27:8090/XBSService/Service1.svc";
             Data = { 'userName': "" + document.getElementById('txtName').value + "", 'password': "" + document.getElementById('txtPwd').value + "" },
             DataType = "jsonp"; ProcessData = false;
