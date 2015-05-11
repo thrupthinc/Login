@@ -14,6 +14,7 @@
         var method;
         //Generic function to call WCF  Service
         function CallService() {
+            $.support.cors = true;
             alert("CallService");
             $.ajax({
                 type: Type, //GET or POST or PUT or DELETE verb
